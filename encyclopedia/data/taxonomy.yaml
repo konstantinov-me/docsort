@@ -1,0 +1,36 @@
+topics:
+  - name: Климатическое оборудование
+    slug: climate
+    description: Кондиционирование, вентиляция, отопление — устройства и их обслуживание
+    keywords: [кондиционер, вентилятор, обогреватель, сплит-система, климат]
+    children:
+      - name: Кондиционеры
+        slug: air-conditioners
+        kind: device_class
+        keywords: [кондиционер, сплит-система, инвертор, фреон, хладагент, r32, компрессор, дренаж]
+        children:
+          - name: Haier DC1052
+            slug: haier-dc1052
+            kind: device_model
+            keywords: [haier, ошибка, e5]
+            model_re: "haier\\s*dc?\\s*1052"
+          - name: Ballu BSE-09HN8
+            slug: ballu-bse-09hn8
+            kind: device_model
+            model_re: "ballu\\s*bse[- ]?09"
+      - name: Вентиляторы
+        slug: fans
+        kind: device_class
+        keywords: [вентилятор, крыльчатка, двигатель вентилятора, лопасть]
+      - name: Обогреватели
+        slug: heaters
+        kind: device_class
+        keywords: [обогреватель, тэн, конвектор, тепловентилятор]
+  - name: Компьютерное железо
+    slug: hardware
+    keywords: [драйвер, материнская плата, bios, бекап]
+    children:
+      - name: Драйверы устройств
+        slug: drivers
+        kind: device_class
+        keywords: [драйвер, windows, inf, usb]
